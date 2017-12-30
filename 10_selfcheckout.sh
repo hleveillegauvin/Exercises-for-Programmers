@@ -8,7 +8,6 @@
 # Create a simple self-checkout system. Prompt for the prices and quantities of three items. Calculate the tax using a tax rate of 5.5%. Print out the line itmes with the quantity and total, and then print out the subtotal, tax amount, and total.
 
 check_numeric_only_positive() {
-### Checks if input is a numeric value e.g. 1, -1, 2.0, etc
 # USE INSIDE LOOP
 		if [[ $1 =~ ^([0-9]*[.])?[0-9]+$ ]]; then
 		break
