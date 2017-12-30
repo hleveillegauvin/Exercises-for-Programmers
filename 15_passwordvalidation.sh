@@ -38,7 +38,7 @@ NC='\033[0m' # No Color
 
 while read -p "What is your username?: " user; do
 
-password=$(cat passwords.json | cat passwords.json | jq -r ".user_passwords.$user" ) #needs double quote to use shell variable
+password=$(cat passwords.json | jq -r ".user_passwords.$user" ) #needs double quote to use shell variable
 
 	if [[ "$password" != "null" ]]; then	#if the username does not exist, jq prints "null"
 	:
