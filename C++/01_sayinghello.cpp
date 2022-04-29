@@ -3,7 +3,7 @@
 // Written by : Hubert Léveillé Gauvin
 // Date : 29 April 2022
 
-// Create a program that prompts for your nameand prints a greeting using your name.
+// Create a program that prompts for your name and prints a greeting using your name.
 
 
 #include <iostream>
