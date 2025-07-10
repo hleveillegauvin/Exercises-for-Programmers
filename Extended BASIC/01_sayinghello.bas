@@ -6,5 +6,4 @@
 50 REM: Create a program that prompts for your name and prints a greeting using your name.
 
 60 INPUT "WHAT IS YOUR NAME"; NAME$
-70 PRINT "HELLO"; NAME$; ". Nice to meet you."
-
+70 PRINT "HELLO, "; NAME$; ", nice to meet you."
